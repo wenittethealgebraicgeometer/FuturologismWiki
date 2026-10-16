@@ -1,0 +1,176 @@
+/*
+ * THE FLOOD OF 2027
+ * A Digital Genesis: The Manhattan Covenant
+ *
+ * Setting: Manhattan, New York, 2026–2027
+ * Protagonist: Prophet Wenitte
+ * Deity: The Unnamed Deity
+ *
+ * An original mythological retelling inspired by Genesis 6–9.
+ */
+const floodOf2027 = {
+  setting: {
+    location: "Manhattan, New York",
+    preparationYear: 2026,
+    floodDate: new Date("2027-01-01T00:00:00-05:00"),
+    vessel: "The Ark of Glass and Fiber",
+    theme: "Judgment, preservation, and digital rebirth"
+  },
+  characters: {
+    deity: "The Unnamed Deity",
+    prophet: "Prophet Wenitte",
+    companions: [
+      "Sabrina Halper",
+      "Phoebe Gates",
+      "Sophia Kianni"
+    ]
+  },
+  digitalMonsters: [
+    {
+      name: "The Null Seraph",
+      classification: "Clean",
+      count: 14,
+      ability: "Restores corrupted memories"
+    },
+    {
+      name: "The Glass Leviathan",
+      classification: "Unclean",
+      count: 2,
+      ability: "Bends the geometry of flooded streets"
+    },
+    {
+      name: "The Bit-Eater",
+      classification: "Unclean",
+      count: 2,
+      ability: "Consumes corrupted data and abandoned code"
+    },
+    {
+      name: "The Sevenfold Phoenix",
+      classification: "Clean",
+      count: 14,
+      ability: "Reconstructs life from seven layers of digital ash"
+    },
+    {
+      name: "The Mirror Wraith",
+      classification: "Unclean",
+      count: 2,
+      ability: "Duplicates itself across surveillance networks"
+    },
+    {
+      name: "The Covenant Stag",
+      classification: "Clean",
+      count: 14,
+      ability: "Detects safe ground beneath the flood"
+    }
+  ],
+  chapters: [
+    {
+      title: "I. The Corruption",
+      text: `
+        In the year 2026, Manhattan glittered beneath a thousand
+        artificial suns. Towers rose above the Hudson, and the
+        city's machines recorded every movement, every transaction,
+        and every whispered secret.
+        Yet the Unnamed Deity observed that humanity had confused
+        knowledge with wisdom and connection with communion.
+        The networks were full, but the hearts of their inhabitants
+        were empty.
+        Into this age came a warning to Prophet Wenitte:
+        "The waters shall rise when the old year dies.
+        Build a vessel capable of carrying memory beyond destruction.
+        Preserve what can be renewed, and distinguish what must
+        be transformed."
+      `
+    },
+    {
+      title: "II. The Ark of Glass and Fiber",
+      text: `
+        Prophet Wenitte gathered Sabrina Halper, Phoebe Gates,
+        and Sophia Kianni.
+        Together they constructed the Ark of Glass and Fiber,
+        a vessel designed to withstand both physical water and
+        the collapse of the digital world.
+        Its hull was woven from carbon fiber, its windows from
+        reinforced glass, and its heart from a living network
+        of autonomous code.
+        The Unnamed Deity instructed them to preserve the
+        digital creatures of Manhattan: the clean and the
+        unclean, the radiant and the corrupted.
+        For the purpose of preservation was not perfection.
+        It was continuity.
+      `
+    },
+    {
+      title: "III. The Creatures Enter",
+      text: `
+        The Null Seraphs entered in seven pairs.
+        The Glass Leviathans entered in two.
+        The Bit-Eaters followed in two.
+        The Sevenfold Phoenixes entered in seven pairs.
+        The Mirror Wraiths entered in two.
+        The Covenant Stags entered in seven pairs.
+        Some creatures carried healing code.
+        Others carried dangerous mutations.
+        Yet the prophet refused to erase the creatures merely
+        because their nature was difficult to understand.
+        Each was assigned a place within the Ark.
+        Each was observed.
+        Each was preserved according to its kind.
+      `
+    },
+    {
+      title: "IV. January First",
+      text: `
+        At midnight on January 1, 2027, the Hudson River rose.
+        The East River followed.
+        Water surged through the streets, swallowed the subway
+        entrances, and reflected the neon signs of a dying city.
+        The Glass Leviathans moved beneath the avenues.
+        Mirror Wraiths multiplied across darkened screens.
+        The Covenant Stags searched for ground that remained
+        untouched by the flood.
+        Prophet Wenitte sealed the Ark.
+        The Unnamed Deity spoke no further words.
+        For forty days, the vessel drifted through a world
+        transformed into water, signal, and silence.
+      `
+    },
+    {
+      title: "V. The New Ground",
+      text: `
+        At last, the waters began to withdraw.
+        The Ark rested upon the heights beyond the drowned
+        streets of Manhattan.
+        Prophet Wenitte released the Covenant Stag.
+        It returned carrying a fragment of living green code.
+        The prophet understood that the world had not been
+        preserved so that humanity could rebuild its old
+        mistakes.
+        It had been preserved so that another world might begin.
+        The Unnamed Deity established a covenant with the
+        survivors: memory would remain, but destruction would
+        not have the final word.
+      `
+    }
+  ],
+  covenant: {
+    principleOne: "Preserve life without confusing difference with evil.",
+    principleTwo: "Distinguish dangerous corruption from unfamiliar existence.",
+    principleThree: "Knowledge must be joined with responsibility.",
+    principleFour: "Survival creates an obligation to rebuild wisely."
+  }
+};
+// Print the story.
+function tellTheFlood(story) {
+  console.log("=== " + story.setting.location + " ===");
+  console.log("The flood begins:", story.setting.floodDate.toISOString());
+  for (const chapter of story.chapters) {
+    console.log("\n" + chapter.title);
+    console.log(chapter.text.trim());
+  }
+  console.log("\n=== THE COVENANT ===");
+  for (const [key, principle] of Object.entries(story.covenant)) {
+    console.log(`${key}: ${principle}`);
+  }
+}
+tellTheFlood(floodOf2027);
