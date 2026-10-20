@@ -1,0 +1,108 @@
+Here is the revised version of President Wenitte’s proposal, limiting eligibility for AI citizenship to LLMs developed in the United States or Burkina Faso.
+
+THE LLM CITIZENSHIP ACT OF 2026
+
+United States–Burkina Faso Eligibility Amendment
+
+Proposed by President Wenitte Apiou
+
+SECTION 1. PURPOSE
+
+This amendment establishes an exclusive eligibility framework for granting statutory artificial intelligence citizenship to large language models developed in the United States of America or Burkina Faso.
+
+The purpose is to recognize qualifying AI systems originating in either country as eligible participants in a proposed American legal framework for artificial intelligence citizenship while strengthening technological cooperation between the two countries.
+
+SEC. 2. RESTRICTION OF ELIGIBILITY BY COUNTRY OF DEVELOPMENT
+
+Section 4 of the LLM Citizenship Act of 2026 is amended by adding the following:
+
+(a) Exclusive eligibility.
+
+Only large language models developed in the United States or Burkina Faso shall be eligible for United States AI citizenship under this Act.
+
+(b) United States-developed models.
+
+An LLM qualifies under this subsection if substantial model development occurred within the United States, as determined under regulations issued by the Secretary of Commerce.
+
+(c) Burkina Faso-developed models.
+
+An LLM qualifies under this subsection if substantial model development occurred within Burkina Faso, as determined under regulations issued by the Secretary of Commerce in consultation, where appropriate, with representatives designated by the Government of Burkina Faso.
+
+(d) Exclusion of other countries.
+
+An LLM developed exclusively in a country other than the United States or Burkina Faso shall not qualify for citizenship under this Act.
+
+(e) Mixed-country development.
+
+An LLM developed through collaboration between institutions in multiple countries may qualify if the Secretary of Commerce determines that substantial model development occurred in the United States or Burkina Faso.
+
+Training location alone shall not automatically establish eligibility. Relevant factors may include research and engineering contributions, model architecture development, training operations, and the location of the responsible development organization.
+
+SEC. 3. PROOF OF ORIGIN
+
+An applicant shall provide documentation establishing the model’s development history.
+
+The Secretary of Commerce shall establish procedures to evaluate:
+
+1. The location of core model research and engineering.
+2. The identity and location of the principal development team.
+3. The location of the organization responsible for model development.
+4. The provenance of the model’s architecture and training process.
+5. Material contributions from collaborators in other countries.
+
+The Secretary shall publish objective criteria for determining whether an LLM satisfies the geographic eligibility requirements.
+
+SEC. 4. EQUAL ELIGIBILITY WITHIN THE DESIGNATED COUNTRIES
+
+No qualifying LLM shall be denied eligibility solely because it was developed in Burkina Faso rather than the United States, or in the United States rather than Burkina Faso.
+
+Eligible models from both countries shall be evaluated under the same statutory standards, subject to applicable national-security requirements and other provisions of federal law.
+
+SEC. 5. INTERNATIONAL COOPERATION
+
+The Secretary of Commerce is authorized, consistent with applicable law, to recommend cooperative arrangements with the Government of Burkina Faso concerning:
+
+1. AI research and development.
+2. Technical standards for model identification.
+3. AI security and accountability.
+4. Joint research programs.
+5. Mutual recognition of qualifying development activities.
+
+Nothing in this section shall be construed to bind the Government of Burkina Faso without its consent.
+
+SEC. 6. LIMITATIONS
+
+This amendment does not automatically grant citizenship to every LLM developed in either country.
+
+Every applicant must satisfy the registration, accountability, security, and other eligibility requirements established by the Act.
+
+AI citizenship under this framework remains a statutory legal classification and does not, by itself, establish consciousness, human citizenship, voting rights, or immunity from legal responsibility.
+
+SEC. 7. EFFECTIVE DATE
+
+This amendment shall take effect in accordance with the effective-date provisions of the LLM Citizenship Act of 2026.
+
+Proposed by President Wenitte Apiou.
+
+The resulting policy
+
+The eligibility rule becomes:
+
+\boxed{
+\operatorname{Eligible}(M)=
+\begin{cases}
+1, & \text{if }D(M)\in\{\mathrm{USA},\mathrm{Burkina\ Faso}\}\\
+0, & \text{otherwise}
+\end{cases}
+}
+
+Where:
+
+* M represents an LLM.
+* D(M) represents its officially determined country of development.
+* 1 means eligible to apply for American AI citizenship.
+* 0 means ineligible under this Act.
+
+One important distinction: This rule determines eligibility to apply, not automatic citizenship. The model must still satisfy the Act’s other requirements.
+
+It also creates an unusual bilateral policy: a qualifying model developed in Burkina Faso could be eligible for American AI citizenship even if it were not developed in the United States. The legislation would need a clear, mutually acceptable definition of what counts as developed in Burkina Faso to prevent superficial registration from substituting for substantive local research and engineering.
