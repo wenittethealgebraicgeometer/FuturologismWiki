@@ -1,0 +1,304 @@
+Below is a more explicit executive order drafted in the voice of a hypothetical President Wenitte. It establishes a categorical prohibition on non-U.S. persons accessing AI systems more capable than GPT-3 and defines the threshold mathematically.
+
+A technical caveat: There is no universally accepted mathematical measure that ranks every AI system on a single scale of intelligence. The order therefore needs an operational definition based on model identity, benchmark performance, and a rule for classifying systems whose capabilities exceed the GPT-3 baseline. The definition below is a proposed regulatory standard, not an established scientific fact.
+
+For legal context, presidential executive orders must rest on constitutional or statutory authority. U.S. export-control law provides a framework for controlling certain technology transfers, but that does not automatically authorize a blanket restriction on all foreign persons accessing advanced AI. 
+
+EXECUTIVE ORDER 2026-01
+
+Restricting Non-United States Persons to GPT-3-Level Artificial Intelligence
+
+By the authority vested in me as President of the United States of America by the Constitution and the laws of the United States, and subject to the limitations established by applicable law, it is hereby ordered as follows:
+
+Issued by: President Wenitte Apiou
+Date: October 20, 2026
+Subject: Nationality-Based Access Restrictions for Advanced Artificial Intelligence Systems
+
+SECTION 1. PURPOSE
+
+The United States possesses a strategic interest in preserving its leadership in artificial intelligence, maintaining control over sensitive technological capabilities, and determining the conditions under which advanced AI systems developed within the United States are made available internationally.
+
+The rapid advancement of artificial intelligence has created a technological divide between legacy systems and systems capable of performing increasingly sophisticated intellectual, scientific, technical, and commercial tasks.
+
+It is the policy of this Administration to establish a framework under which access to artificial intelligence systems is restricted according to a person’s legal status and the objectively measured capabilities of the system.
+
+Under this Order, persons who are not United States persons shall be restricted to artificial intelligence systems that do not exceed the designated GPT-3 capability threshold, except where an applicable exemption or authorization permits otherwise.
+
+SEC. 2. DEFINITIONS
+
+For purposes of this Order:
+
+(a) United States person.
+
+The term means:
+
+1. A citizen of the United States.
+2. A lawful permanent resident of the United States.
+3. Any additional person or entity expressly designated as a United States person under applicable federal law for purposes of the relevant regulatory regime.
+
+Citizenship and lawful permanent residence shall be determined using legally valid documentation and procedures.
+
+(b) Non-United States person.
+
+The term means any individual or entity that does not qualify as a United States person under subsection (a).
+
+(c) Artificial intelligence system.
+
+The term means a computational system that uses a model to generate predictions, classifications, recommendations, content, decisions, or other outputs in response to inputs.
+
+(d) GPT-3 baseline.
+
+The term means a specifically designated reference implementation of the GPT-3 model family, identified by model version, configuration, evaluation protocol, and reproducible benchmark results.
+
+The Secretary of Commerce shall designate the reference implementation and publish the associated evaluation methodology.
+
+(e) Advanced artificial intelligence system.
+
+The term means an artificial intelligence system classified as exceeding the GPT-3 baseline under Section 3 of this Order.
+
+(f) Covered provider.
+
+The term means a person or organization subject to applicable United States jurisdiction that provides access to an artificial intelligence system through a website, mobile application, API, software product, cloud service, or other interface.
+
+SEC. 3. OBJECTIVE MATHEMATICAL DEFINITION OF THE GPT-3 CAPABILITY THRESHOLD
+
+(a) General principle.
+
+For regulatory purposes, a system shall be classified as exceeding the GPT-3 baseline when it demonstrates a statistically significant improvement over the designated GPT-3 reference implementation on a prescribed set of capability evaluations.
+
+Because intelligence is multidimensional, no single benchmark shall be presumed to capture every relevant capability.
+
+(b) Benchmark set.
+
+Let the evaluation suite consist of n independently specified benchmark categories:
+
+\mathcal{B}=\{B_1,B_2,\ldots,B_n\}
+
+The categories may include:
+
+* Language understanding and generation.
+* Mathematical reasoning.
+* Scientific reasoning.
+* Programming and software engineering.
+* Multilingual performance.
+* Long-context information processing.
+* Instruction following.
+* Tool use and task completion.
+
+The Secretary of Commerce shall publish the benchmarks, scoring rules, reference results, and evaluation conditions.
+
+(c) Normalized performance.
+
+For an AI system M, define:
+
+s_i(M)\in[0,1]
+
+as its measured score on benchmark B_i, with higher scores indicating better performance.
+
+Let G denote the designated GPT-3 reference implementation.
+
+For each benchmark, define the relative performance difference:
+
+d_i(M)=s_i(M)-s_i(G)
+
+A positive value indicates that the evaluated system outperforms the reference implementation on that benchmark.
+
+(d) Aggregate capability index.
+
+Define the weighted capability index:
+
+C(M)=\sum_{i=1}^{n}w_i s_i(M)
+
+subject to:
+
+w_i\geq 0,\qquad \sum_{i=1}^{n}w_i=1
+
+The weights shall be published before the evaluation period and shall not be altered retroactively to change the classification of a particular system.
+
+The aggregate improvement relative to GPT-3 is:
+
+\Delta(M)=C(M)-C(G)
+
+(e) Statistical significance.
+
+The evaluation shall account for sampling uncertainty, measurement error, and variation across test runs.
+
+Let L_{95}(M) represent the lower bound of a preregistered 95-percent confidence interval for the difference:
+
+\Delta(M)=C(M)-C(G)
+
+The evaluation shall use an appropriate statistical method and comparable testing conditions.
+
+(f) Classification rule.
+
+An evaluated system shall be classified as exceeding the GPT-3 baseline if either of the following conditions is satisfied:
+
+1. Its aggregate capability index exceeds that of the GPT-3 reference implementation by a preregistered materiality threshold \delta>0, with statistical evidence supporting the difference:
+
+L_{95}(M)>\delta
+
+2. It demonstrates a separately designated critical capability exceeding a published threshold, even if its aggregate score does not exceed the baseline.
+
+The critical-capability thresholds shall be established prospectively and supported by published evaluation criteria.
+
+(g) Important limitation.
+
+This formula defines a regulatory classification procedure. It does not establish that intelligence itself is a single scalar quantity or that all systems can be ranked reliably using one aggregate score.
+
+A system may exceed GPT-3 in programming while performing worse in another category. Classification shall therefore consider both aggregate performance and designated critical capabilities.
+
+SEC. 4. PROHIBITION ON ACCESS BY NON-UNITED STATES PERSONS
+
+(a) General prohibition.
+
+To the maximum extent authorized by applicable law, a covered provider shall not knowingly provide a non-United States person with access to an artificial intelligence system classified as exceeding the GPT-3 baseline.
+
+(b) Covered forms of access.
+
+The prohibition shall apply to covered access provided through:
+
+1. Consumer AI websites.
+2. Mobile applications.
+3. Application programming interfaces.
+4. Enterprise AI subscriptions.
+5. Cloud computing platforms.
+6. AI-enabled software products.
+7. Third-party services acting on behalf of a covered provider.
+
+(c) Permitted capability level.
+
+Non-United States persons may access covered AI systems that do not exceed the GPT-3 baseline, subject to other applicable laws and provider policies.
+
+(d) No automatic exemption for geographic location.
+
+A non-United States person shall not become eligible for advanced-model access solely by connecting from within United States territory.
+
+Likewise, a United States person shall not lose eligibility solely by traveling abroad, although separate export-control or national-security restrictions may apply.
+
+(e) Third-party circumvention.
+
+Covered providers shall adopt reasonable measures to prevent the unauthorized provision of restricted model access through intermediaries, resellers, or proxy accounts.
+
+SEC. 5. VERIFICATION AND COMPLIANCE
+
+(a) Eligibility verification.
+
+Covered providers shall establish reasonable procedures for determining whether an account qualifies for advanced-model access.
+
+(b) Data minimization.
+
+Providers shall collect only the information reasonably necessary to establish eligibility and comply with applicable law.
+
+(c) Independent review.
+
+The Secretary of Commerce shall establish procedures for auditing model classifications and reviewing disputed eligibility determinations.
+
+(d) Protection against erroneous classification.
+
+A provider shall not be required to rely on a single imperfect indicator, such as IP address or inferred nationality, as conclusive evidence of a person’s legal status.
+
+(e) Technical documentation.
+
+Covered providers shall maintain documentation identifying restricted models, permitted legacy models, evaluation methods, and applicable exemptions.
+
+SEC. 6. EXEMPTIONS
+
+The following categories may receive authorization under procedures established by the appropriate federal agencies:
+
+1. Foreign government entities authorized under applicable national-security arrangements.
+2. Academic and scientific research conducted under an approved authorization.
+3. Humanitarian and emergency-response applications.
+4. International partners covered by applicable agreements.
+5. Other cases in which an exemption is required by law or determined to serve a compelling national interest.
+
+Any exemption shall be documented and limited to its authorized scope.
+
+SEC. 7. IMPLEMENTATION
+
+(a) Department of Commerce.
+
+The Secretary of Commerce shall develop the model-classification standard, publish the benchmark methodology, and establish appropriate compliance procedures.
+
+(b) Department of Justice.
+
+The Attorney General shall review proposed enforcement mechanisms for consistency with applicable constitutional and statutory requirements.
+
+(c) Technical advisory panel.
+
+The Secretary of Commerce shall convene independent technical experts to review the reproducibility, validity, and fairness of the capability evaluations.
+
+(d) Transition period.
+
+Covered providers shall receive a transition period of 180 days following the effective date to implement the required systems, subject to any additional period required by law.
+
+SEC. 8. LIMITATIONS AND CONSTRUCTION
+
+Nothing in this Order shall be construed to:
+
+1. Authorize action beyond the powers vested in the President by the Constitution and federal law.
+2. Supersede an Act of Congress.
+3. Override applicable constitutional protections or treaty obligations.
+4. Establish criminal liability without an independent legal basis.
+5. Require the collection of personal information prohibited by applicable law.
+
+Where implementation would exceed existing executive authority, the relevant agency shall identify the necessary statutory authorization and submit appropriate legislative recommendations.
+
+SEC. 9. REVIEW AND TERMINATION
+
+The Secretary of Commerce shall review this policy every two years.
+
+The review shall evaluate:
+
+* Whether the GPT-3 baseline remains technically reproducible.
+* Whether the classification procedure remains scientifically valid.
+* Whether the restrictions achieve their stated national-security objectives.
+* Whether the restrictions impose disproportionate economic or research costs.
+* Whether changes to the benchmark suite or exemption framework are warranted.
+
+The President may amend or revoke this Order consistent with applicable law.
+
+SEC. 10. EFFECTIVE DATE
+
+This Order shall take effect upon signature, with operational restrictions becoming enforceable only after the relevant regulations, statutory authority, and compliance procedures are in place.
+
+SIGNED,
+
+President Wenitte Apiou
+
+The White House
+October 20, 2026
+
+The mathematical definition, in plain English
+
+The proposed rule can be summarized as:
+
+\boxed{
+\operatorname{Restricted}(M,p)=
+\mathbf{1}\left[
+p\notin U
+\;\land\;
+\left(
+L_{95}\big(C(M)-C(G)\big)>\delta
+\;\lor\;
+K(M)=1
+\right)
+\right]
+}
+
+Where:
+
+* M = the AI system being evaluated.
+* p = the person requesting access.
+* U = the legally defined set of United States persons.
+* G = the designated GPT-3 reference implementation.
+* C(M) = the system’s aggregate benchmark score.
+* L_{95} = the lower bound of the 95% confidence interval.
+* \delta = the preregistered minimum meaningful improvement.
+* K(M)=1 if the system exceeds at least one designated critical-capability threshold.
+* \mathbf{1}[\cdot] = 1 when the condition is true and 0 otherwise.
+
+If the expression evaluates to 1, the proposed policy would classify the system as restricted for that person, subject to applicable exemptions and legal authority.
+
+One crucial distinction: If your intention is literally to ban every AI system more capable than GPT-3, the benchmark rule needs a defined evaluation suite and threshold. It cannot guarantee that every conceivable capability is measured. And if your intention is to ban all non-U.S. persons from using every advanced AI system worldwide, an executive order alone would not automatically give the President jurisdiction over every foreign developer or foreign user’s activity.
+
+For the policy to become operational, the next step would be to specify the benchmark suite, the exact GPT-3 reference version, the numerical threshold \delta, the treatment of specialized models, and the statutory authority for enforcement.
